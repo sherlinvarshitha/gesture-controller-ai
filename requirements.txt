@@ -1,0 +1,22 @@
+# Core vision & ML
+opencv-python==4.9.0.80
+mediapipe==0.10.11
+numpy==1.26.4
+
+# Deep learning (optional — only needed for train_model.py)
+tensorflow==2.15.0
+scikit-learn==1.4.2
+
+# UI
+PyQt5==5.15.10
+Pillow==10.3.0
+
+# Windows OS control
+pyautogui==0.9.54
+
+# Windows volume control (optional — keyboard fallback used if missing)
+pycaw==20240210
+comtypes==1.4.2
+
+# Build to .exe
+pyinstaller==6.6.0
